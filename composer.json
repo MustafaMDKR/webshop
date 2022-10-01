@@ -1,0 +1,19 @@
+{
+  "name": "dash/webshop",
+  "authors": [
+    {
+      "name": "Mustafa Madkour",
+      "email": "mustafamdkr@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "symfony/var-dumper": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App",
+      "Dash\\": "src"
+    }
+  }
+}
